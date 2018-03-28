@@ -1,0 +1,15 @@
+#include<iostream.h>
+int max(int x,int y){
+if(x>y)
+return x;
+else 
+return y;
+}
+void main(){
+int z,f;
+cout<<"enter z:\n";
+cin>>z;
+cout<<"enter f\n";
+cin>>f;
+cout<<"the max num is:"<<max(z,f);
+}

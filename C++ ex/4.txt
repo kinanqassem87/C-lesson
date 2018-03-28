@@ -1,0 +1,10 @@
+#include<iostream.h>
+void main(){
+int n;
+cout<<"enter num and zero to exite\n";
+cin>> n;
+while(n!=0){
+	cout<<"cube of n is :"<< n*n*n\n;
+	cin>> n ;
+}
+}

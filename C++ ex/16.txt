@@ -1,0 +1,14 @@
+#include<iostream.h>
+void f(int x,int &y){
+x=88;
+y=99;
+}
+void main(){
+int z,d;
+cout<<"enter z:\n";
+cin>>z;
+cout<<"enter d\n";
+cin>>d;
+f(z,d);
+cout<<"new z:"<<z<<"\t"<<"new d:"<<d<<"\n";
+}

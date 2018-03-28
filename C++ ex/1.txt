@@ -1,0 +1,9 @@
+#include<iostream.h>
+void main(){
+int x,y;
+cin>> x>> y;
+if(x*y)
+cout<<"mul is not 0";
+else
+cout<<"0";
+}

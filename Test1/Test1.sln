@@ -1,0 +1,10 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "Test1", "Test1.dsp", "{BB31C878-4DEF-4130-98E4-D2D870C552E1}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

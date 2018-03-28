@@ -1,0 +1,26 @@
+#include<iostream.h>
+void swap(double &a, double &d){
+double temp;
+temp=a;
+a=d;
+d=temp;
+}
+void sort (double a[] ,int n ){
+	for(int i=0 ; i<n-1 ; i++){
+		for(int j=i ; j<n ; j++){
+		if(a[i]<a[j])
+			swap(a[i] , a[j]);
+		}
+	}
+}
+void print(double a[] , int n){
+	for (int i=0 ; i<n ; i++){
+	cout<<a[i]<<"\t";
+	}
+}
+void main(){
+	double a[]={2.4 , 33.4, 33.5, 1};
+	print(a , 4);cout<<endl;
+sort (a , 4);
+print (a , 4);
+}

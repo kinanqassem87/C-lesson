@@ -1,0 +1,24 @@
+#include<iostream.h>
+#include<math.h>
+void main(){
+double a,c,b,d,x1,x2;
+cout<<"(a)x^2+(b)x+(c)=0\n";
+cout<<"enter val of a=";
+cin>> a;
+cout<<"\n enter the val of b=";
+cin>> b;
+cout<<"\n enter the val of c=";
+cin>> c;
+cout<<"\n ***********************\n";
+d=pow(b,2)-4*a*c;
+if(d==0){
+	x1=-b/(2*a);cout<<"x1=x2="<<x1<<"\n";}
+else if(d<0)
+cout<<"comples sul";
+else {
+x1=(-b+sqrt(d))/(2*a);
+x2=(-b-sqrt(d))/(2*a);
+cout<<"x1="<<x1;
+cout<<"\n x2="<<x2<<"\n";
+}
+}

@@ -1,0 +1,24 @@
+#include<iostream.h>
+void main(){
+int k;
+cout<<"enter the day num\n";
+cin>> k;
+cout<<"the day is:";
+switch(k){
+case 1: cout<<"saterday\n";
+	break;
+case 2: cout<<"sunday\n";
+	break;
+case 3: cout<<"mon\n";
+	break;
+case 4: cout<<"tus\n";
+	break;
+case 5: cout<<"wed\n";
+	break;
+case 6: cout<<"thurs\n";
+break;
+case 7:cout<<"fri\n";
+	break;
+default : cout<<"error\n";
+}
+}

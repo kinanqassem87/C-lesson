@@ -1,0 +1,68 @@
+ШбфЧуЬ эоцу ШХЯЮЧс уенцнЩ цуф Ыу ЪбЪэШ кфЧеб хах ЧсуенцнЩ ЪеЧкЯэЧ№ цуф Ыу иШЧкЩ ЧсуенцнЩ ЧсфЧЪЬЩ .
+
+
+
+
+// Sorting Array in Ascending Order
+
+# include <iostream.h>
+
+void main ( )
+
+{
+
+int i , j ,n ;
+
+float a[50] , t ; //ЧсЪебэЭ кф ЧсуенцнЩ ШШкЯ Укйуэ 
+
+cout<< " Enter No. of elements : " ; 
+
+cin>> n ; //ХЯЮЧс кЯЯ кфЧеб ЧсуенцнЩ ЧсуисцШ
+
+
+
+
+
+ХЯЮЧс кфЧеб ЧсуенцнЩ
+for ( i = 1 ; i <= n ; ++ i ) 
+
+{ cout << " Enter a"<< i << " : " ;
+
+cin >> a [ i ] ;
+
+}
+
+
+
+
+for ( i = 1 ; i <= n ; ++i ) 
+
+for ( j = i +1 ; j <= n ; ++j )
+
+
+ЪбЪэШ кфЧеб ЧсуенцнЩ
+if ( a [ j ] < a [ i ] ) 
+
+{ 
+
+t = a [ j ] ; 
+
+a [ j ] = a [ i ];
+
+a [ i ] = t ;
+
+}
+
+
+
+
+
+иШЧкЩ кфЧеб ЧсуенцнЩ
+cout << " \n Printing the sorted Array : \n\n " ; 
+
+for ( i = 1 ; i <= n ; ++i )
+
+cout << a [ i ] << " " ;
+
+}
+
